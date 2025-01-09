@@ -144,6 +144,12 @@ button:hover, button:focus, .button:hover, .button:focus {
 .grid__item:last-child {
   grid-column: 1 / 4;
   grid-row: 2 / 2;
+  transition: transform 0.3s ease-in-out; 
+  transform: scale(1); 
+}
+
+.grid__item:hover {
+  transform: scale(1.05); 
 }
 
 @media all and (max-width: 500px) {

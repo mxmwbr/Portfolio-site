@@ -155,8 +155,12 @@ button:focus {
   background-color: rgb(236, 227, 233);
   padding: 32px;
   border-radius: 8px;
+  transition: transform 0.3s ease-in-out; 
+  transform: scale(1); 
 }
-
+.grid__item:hover {
+  transform: scale(1.05); 
+}
 .grid__item:last-child {
   grid-column: 1 / 4;
   grid-row: 2 / 2;
